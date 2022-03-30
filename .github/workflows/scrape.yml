@@ -13,7 +13,7 @@ jobs:
     - name: Build
       run: npm install
     - name: Scrape
-      run: npm run action > vacancies.txt
+      run: npm run action
       # env:
       #   WHATEVER_TOKEN: ${{ secrets.YOU_WANT }}
     - uses: mikeal/publish-to-github-action@master
